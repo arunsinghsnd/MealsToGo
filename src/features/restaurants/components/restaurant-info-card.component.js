@@ -103,12 +103,4 @@ const RestaurantInfoCard = ({ restaurant = {} }) => {
 
 export default RestaurantInfoCard;
 
-const styles = StyleSheet.create({
-  card: {
-    backgroundColor: "white",
-  },
-  cover: {
-    padding: 20,
-    backgroundColor: "white",
-  },
-});
+const styles = StyleSheet.create({});
