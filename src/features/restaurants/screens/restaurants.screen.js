@@ -6,7 +6,7 @@ import styled from "styled-components/native";
 
 const SafeArea = styled(SafeAreaView)`
   flex: 1;
-  margin-top: ${StatusBar.currentHeight}px;
+  ${StatusBar.currentHeight && `margin-top: ${StatusBar.currentHeight}px`};
 `;
 
 const SearchContianer = styled.View`
@@ -16,7 +16,7 @@ const SearchContianer = styled.View`
 const RestaurantListContainer = styled.View`
   flex: 1;
   padding: 16px;
-  background-color: blue;
+  background-color: white;
 `;
 const RestaurantsScreen = () => {
   return (
